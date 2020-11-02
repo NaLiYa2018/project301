@@ -19,6 +19,12 @@ Tid_t sys_ThreadSelf()
 	return (Tid_t) CURTHREAD;
 }
 
+
+/*MY CHANGE!!!!!!!!*/
+printf("hello world");
+
+
+
 /**
   @brief Join the given thread.
   */
